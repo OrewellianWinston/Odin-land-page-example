@@ -1,0 +1,160 @@
+body {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    
+    flex:1;
+    }
+    
+
+    .header {
+        color:#F9FAF8;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        padding:20px;
+        background-color: #1F2937;
+        
+    }
+    .text {
+        align-self: center;
+    }
+    .text-content {
+        color:#F9FAF8;
+        display:flex;
+        margin: 40px;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+        padding:20px;
+        
+    }
+    .img {
+        color:#F9FAF8;
+        text-align: center;
+        display: flex;
+        margin:30px;
+        width:500px;
+        height: 200px;
+        justify-content: center;
+        background-color: grey;
+    }
+    .right-side {
+        display: flex;
+        gap:20px;
+    }
+
+    .logo {
+        font-size: 2em;
+    }
+
+    .nav-link{
+        align-self:center;
+    }
+
+    .content {
+        display:flex;
+        justify-content: space-between;
+        background-color: #1F2937;
+    }
+
+    .main {
+        display: flex;
+        color:black;
+        justify-content: center;
+        align-items:center;
+        height: 200px;
+    }
+
+    .boxes{
+        margin: auto;
+        gap:30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bord{
+        width: 100px;
+        height: 100px;
+        margin:1em;
+        outline: 2px solid blue;
+        box-shadow: 0px 0px 10px 2px #1F2937;
+        border-radius: 10px;
+        
+    }
+.quote{
+    height: 200px;
+    background-color: grey;
+    font-size: large;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote h1{
+    display: flex;
+    margin:20px;
+    
+    
+}
+.signature {
+    font-style: normal;
+    font-weight: bold;
+    padding:10px;
+    border:10px;
+    
+}
+
+.empty {
+    height:50px;
+}
+
+.call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.borda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+#callt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color:white;
+    border-radius: 10px;
+    padding:20px;
+}
+
+.signup{
+    width: 100px;
+    height: 50px;
+    align-self: center;
+    outline: 1px solid white;
+    color:white;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
